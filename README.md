@@ -30,6 +30,12 @@ uv run pytest -q
 uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
+質問を省略して起動すると、過去の会話を踏まえて繰り返し質問できます。`exit` または `quit` で終了します。
+
+```bash
+ 
+```
+
 詳しい手順は [lectures/01/problem.md](lectures/01/problem.md) を見てください。
 
 ## 構成
